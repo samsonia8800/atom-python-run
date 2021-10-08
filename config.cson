@@ -1,0 +1,64 @@
+"*":
+  "atom-python-virtualenv":
+    additionalVirtualEnvPaths: "C:\\Users\\legal\\anaconda3\\envs"
+    getWorkOnHome: "C:\\Users\\legal\\.virtualenvs"
+  "autocomplete-python":
+    useKite: false
+  "autocomplete-python-jedi": {}
+  core:
+    disabledPackages: [
+      "python-linters"
+      "linter-pydocstyle"
+      "jupyter-notebook"
+      "platformio-ide-debugger"
+      "python-terminal"
+      "terminal-plus"
+      "python-run-terminalnx"
+      "platformio-ide"
+      "vk-terminal"
+      "platformio-ide-terminal"
+      "intentions"
+      "tree-view"
+    ]
+    telemetryConsent: "no"
+    uriHandlerRegistration: "always"
+  editor:
+    fontSize: 15
+    lineHeight: 1.75
+    preferredLineLength: 86
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "1e4cd765-104f-4416-aa1f-5077d76a02be"
+  "file-icons":
+    coloured: false
+  "ide-python":
+    pylsPlugins:
+      flake8:
+        maxLineLength: 85
+  "linter-ui-default":
+    useBusySignal: false
+  minimap:
+    plugins:
+      "lens-mode": true
+      "lens-modeDecorationsZIndex": 0
+      "minimap-hide": true
+      "minimap-hideDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  "platformio-ide-terminal":
+    core:
+      shell: "C:\\Windows\\System32\\cmd.exe"
+  "python-autopep8":
+    formatOnSave: true
+  "tool-bar":
+    position: "Left"
+    visible: false
+  welcome:
+    showOnStartup: false
+  "x-terminal":
+    spawnPtySettings:
+      command: "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
